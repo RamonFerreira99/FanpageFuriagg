@@ -1,0 +1,35 @@
+/* src/app/components/Navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #141414; /* Cor de fundo */
+    color: white; /* Cor do texto */
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column; /* Alterna para coluna quando o menu está aberto */
+    position: absolute;
+    top: 60px; /* Ajuste conforme necessário */
+    left: 0;
+    background-color: #141414; /* Cor do fundo do menu */
+    padding: 10px;
+    border-radius: 4px; /* Bordas arredondadas */
+  }
+  
+  .menu li {
+    margin: 10px 0;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+  }
+  

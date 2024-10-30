@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*  generales  */
+
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.6em;
+    color: black;
+}
+
+
+/*  utilidades  */
+div.contenedor {
+    margin: 12px 0;
+    text-align: center;
+}
+
+/*  canvas  */
+canvas{
+    width: 600px;
+    height: 400px;
+}
+
+canvas.pantalla-juego {
+    border: 2px solid red;
+}
+
+@media only screen and (min-width: 400px){
+    canvas{
+        width: 500px;
+        height: 300px;
+    }
+    h1 {
+        font-size: 1.9em;
+    }   
+}
+
+@media only screen and (min-width: 783px){
+    canvas{
+        width: 600px;
+        height: 400px;
+    }
+    h1 {
+        font-size: 2em;
+    }   
+}
+
